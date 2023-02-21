@@ -1,0 +1,116 @@
+.findpeace {
+  position: relative;
+  height: 850px;
+  width: 1408px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-image: url(../img/house.png);
+
+  &__forest {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 95px;
+    right: 58px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 72px;
+    color: #ffffff;
+  }
+
+  &__come {
+    display: block;
+    color: #ffffff;
+    font-family: "Mulish", sans-serif;
+    width: 333px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    position: absolute;
+    right: 142px;
+    top: 201px;
+  }
+
+  &__button {
+    max-width: 263px;
+    max-height: 100px;
+    position: absolute;
+    top: 637px;
+    left: 146px;
+    &_booknow {
+      font-family: "dinpro";
+      display: block;
+      padding: 36px 82px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 28px;
+      background-color: #5b6460;
+    }
+  }
+
+  &__vertical_line {
+    position: absolute;
+    left: 41px;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    & .line__item {
+      width: 1.5px;
+      height: 60px;
+      background-color: #fff;
+      opacity: 0.25;
+      & .active {
+        width: 1.5px;
+        height: 60px;
+        background-color: #fff;
+        opacity: 1;
+      }
+    }
+  }
+
+  .back {
+    background-image: url(../img/back.svg);
+    position: absolute;
+    top: 601px;
+    left: 646px;
+    width: 33px;
+    height: 15px;
+  }
+
+  .forward {
+    width: 35px;
+    height: 15px;
+    position: absolute;
+    background-image: url(../img/forward.svg);
+    top: 601px;
+    right: 649px;
+  }
+
+  .price {
+    position: absolute;
+    top: 637px;
+    left: 401px;
+    font-family: "dinpro";
+    width: 120px;
+    height: 100px;
+    background-color: #e9ece0;
+    padding: 22px 32px 22px 29px;
+
+    &__from {
+      text-align: left;
+      font-size: 12px;
+    }
+
+    &__euro {
+      text-align: center;
+      font-weight: 500;
+      font-size: 22px;
+    }
+
+    &__pernight {
+      text-align: right;
+      width: 60px;
+    }
+  }
+}

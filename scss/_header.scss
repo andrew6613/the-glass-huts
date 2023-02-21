@@ -1,0 +1,54 @@
+.header {
+  font-family: "dinpro";
+  display: flex;
+  justify-content: space-between;
+  max-width: 1408px;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 24px;
+  height: 100px;
+  background-color: #fff;
+
+  &__button_ref {
+    display: block;
+    padding: 16px 60px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  &__logo {
+    display: block;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    width: 71px;
+    height: 66px;
+    margin-left: 146px;
+  }
+
+  &__button {
+    background-color: #5b6460;
+    display: block;
+    text-align: center;
+    margin-right: 32px;
+  }
+
+  .nav__list {
+    list-style-type: none;
+    display: flex;
+    gap: 36px;
+    a {
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+
+  .nav__item_flag {
+    display: block;
+    background-image: url(../img/denmark.svg);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+  }
+}

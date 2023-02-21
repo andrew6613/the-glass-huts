@@ -1,0 +1,90 @@
+.stay__in {
+  font-family: "Open Sans";
+  height: 617px;
+  padding: 150px 146px 133px;
+  &_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__booking {
+    position: relative;
+    margin-right: 0px;
+    margin-top: 46px;
+    margin-bottom: 133px;
+  }
+
+  &_button {
+    font-family: "dinpro";
+    display: block;
+    padding: 36px 82px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #5b6460;
+    width: 266px;
+  }
+
+  &__price {
+    font-family: "dinpro";
+    width: 120px;
+    height: 100px;
+    background-color: #e9ece0;
+    padding: 22px 32px 22px 29px;
+  }
+
+  & .button__container {
+    display: flex;
+  }
+}
+
+.contacts {
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #5b6460;
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    &:first-of-type {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.network__logos {
+  width: 236px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  .inst {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/inst.svg);
+    background-repeat: no-repeat;
+  }
+
+  .facebook {
+    display: block;
+    height: 50px;
+    width: 52px;
+    background-image: url(../img/facebook.svg);
+    background-repeat: no-repeat;
+  }
+
+  .twitter {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/twitter.svg);
+    background-repeat: no-repeat;
+  }
+}
